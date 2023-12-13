@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <title>dam1-travelia-iagoParamo</title>
 </head>
 <body>
     <header>
-        <h1>Travelia</h1>
-        <img src="img/circles.png" alt="logo">
+        <span>Travelia</span>
+
+        <div id="circulo">
+
+                <div id="circulo1"></div>
+                <div id="circulo2"></div>
+                <div id="circulo3"></div>
+                <div id="circulo4"></div>
+
+        </div>
     </header>
 
+
+
     <main>
-        <nav>
+        <section>
             <article>
                 <img src="img/tours.png" alt="tours">
                 <h1>TOURS</h1>
@@ -34,18 +45,17 @@
                 <h1>SUPPORT</h1>
                 <p>You can choose from a wide range os support options to contact us</p>
             </article>
-        </nav>
+        </section>
         <section>
             <img src="img/sassolungo-mountain-italy.jpg" alt="Landscape">
         </section>
         <section>
             <form action="#" method="post">
                 <h1>CONTACT US</h1>
-                <br>
-                <input type="text" name="name" id="name" placeholder="Enter your name">
-                <br>  
-                <input type="text" name="email" id="email" placeholder="Enter your email">
-                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" size="32">
+                <br><br>  
+                <input type="text" name="email" id="email" placeholder="Enter your email" size="32">
+                <br><br>
                 <label for="age">Age</label>
                 <input type="number" name="age" id="age" max="200" min="0">
                 <br><br>
@@ -57,12 +67,12 @@
                 <label for="gender">Female</label>
                 <input type="radio" name="gender" id="gender">
                 <label for="gender">Non binary</label>
-                <br>
-                <label for="textbox">Comments</label>
                 <br><br>
+                <label for="textbox">Comments</label>
+                <br>
                 <textarea name="textbox" id="" cols="30" rows="10"></textarea>
                 <br>
-                <button type="submit">Submit</button>
+                <button type="submit">SUBMIT</button>
             </form>
         </section>
     </main>
@@ -78,7 +88,7 @@
             <p>Images by rowpixel.com, juicyfish and wirestock on <a href="https://www.freepik.es/" target="_blank">Freepik</a></p>
         </section>
         <section>
-            <p>&copy; Iago Páramo Parada</p>
+            &copy; Iago Páramo Parada
         </section>
     </footer>
 </body>

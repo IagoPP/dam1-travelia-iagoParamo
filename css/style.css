@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Heebo&display=swap');
+
+html, body{
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Header*/
+header{
+    font-family: 'Ephesis', cursive;
+    color: white;
+    background-color: #F42D59;
+    width: 1100px;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header span{
+    margin: 10px;
+    margin-top: 0.5em;
+}
+
+/*Main*/
+main{
+    font-family: 'Heebo', sans-serif;
+    color:black;
+    width: 1100px;
+}
+
+button:hover{
+    background-color:#D9D9D9;
+    color: #F42D59;
+}
+
+section>img{
+    width: 100%;
+}
+
+main section:first-child{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+main section:first-child p{
+    text-align: start;
+}
+
+main section:first-child img{
+    border-radius: 100%;
+    text-align: center;
+}
+
+section:first-child article{
+    background-color: #FFF;
+    height: 320px;
+    max-width: 200px;
+    padding: 1em;
+}
+
+section:first-child article img{
+    max-width: 60px;
+}
+
+section:last-child{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    background-color: #FFF;
+    width: 380px;
+    padding-left: 7em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+form h1{
+    text-align: start;
+    padding-left: 2.5em;
+}
+
+form h4{
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+button{
+    background-color: #F42D59;
+    width: 250px;
+    color: white;
+    border-style: none;
+    padding: 4px;
+}
+
+
+
+/*Footer*/
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    background-color: #F42D59;
+    width: 1100px;
+    padding: 1em;
+}
+
+footer section p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer section p a:hover{
+    color: #D9D9D9;
+}
+
+footer section a img{
+    max-width: 40px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+/*circulo logo*/
+#circulo1{
+    position:relative;
+    width: 65px;
+    height: 65px;
+    background-color: #FFF;
+    border-radius: 100%;
+}
+#circulo2{
+    position:relative;
+    width: 45px;
+    height: 45px;
+    bottom: 55px;
+    left: 10px;
+    background-color:#F42D59;
+    border-radius: 100%;
+}
+#circulo3{
+    position:relative;
+    width: 25px;
+    height: 25px;
+    bottom: 90px;
+    left: 20px;
+    background-color:#FFF;
+    border-radius: 100%;
+}
+#circulo4{
+    position:relative;
+    width: 10px;
+    height: 10px;
+    bottom: 107px;
+    left: 27px;
+    background-color:#F42D59;
+    border-radius: 100%;
+}
+#circulo{
+
+    height: 70px;
+    width: 70px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 769px) {
+    form {
+        width: 285px;
+        padding-left: 1.3em;
+    }
+    form h1{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    header{
+        width: 600px;
+    }
+    main{
+        width: 600px;
+    }
+    main section:first-child article{
+        margin: 5px;
+    }
+    footer{
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    header{
+        width: 400px;
+    }
+    main{
+        width: 400px;
+    }
+    main section:first-child article{
+        margin: 5px;
+    }
+    footer{
+        width: 400px;
+    }
+
+}
