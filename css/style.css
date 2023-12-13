@@ -213,16 +213,16 @@ footer section p{
 
 
     header{
-        width: 420px;
+        width: 400px;
     }
     main{
-        width: 420px;
+        width: 400px;
     }
     main section:first-child article{
         margin: 5px;
     }
     footer{
-        width: 420px;
+        width: 400px;
     }
 
 }
