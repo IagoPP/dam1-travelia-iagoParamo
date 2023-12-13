@@ -21,8 +21,6 @@
         </div>
     </header>
 
-
-
     <main>
         <section>
             <article>
@@ -50,30 +48,33 @@
             <img src="img/sassolungo-mountain-italy.jpg" alt="Landscape">
         </section>
         <section>
-            <form action="#" method="post">
-                <h1>CONTACT US</h1>
-                <input type="text" name="name" id="name" placeholder="Enter your name" size="32">
-                <br><br>  
-                <input type="text" name="email" id="email" placeholder="Enter your email" size="32">
-                <br><br>
-                <label for="age">Age</label>
-                <input type="number" name="age" id="age" max="200" min="0">
-                <br><br>
-                <h4>Gender</h4>
-                
-                <input type="radio" name="gender" id="gender">
-                <label for="gender">Male</label>
-                <input type="radio" name="gender" id="gender">
-                <label for="gender">Female</label>
-                <input type="radio" name="gender" id="gender">
-                <label for="gender">Non binary</label>
-                <br><br>
-                <label for="textbox">Comments</label>
-                <br>
-                <textarea name="textbox" id="" cols="30" rows="10"></textarea>
-                <br>
-                <button type="submit">SUBMIT</button>
-            </form>
+            <div id="formbox">
+                <form action="/Assets/form.php" method="post">
+                    <h1>CONTACT US</h1>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" size="32">
+                    <br><br>  
+                    <input type="text" name="email" id="email" placeholder="Enter your email" size="32">
+                    <br><br>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" max="200" min="0">
+                    <br><br>
+                    <h4>Gender</h4>
+                    
+                    <input type="radio" name="gender" id="gender">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="gender">Non binary</label>
+                    <br><br>
+                    <label for="textbox">Comments</label>
+                    <br>
+                    <textarea name="textbox" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+            
         </section>
     </main>
 
